@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/CSS/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Noto Sans' rel='stylesheet'>
+    <title>Document</title>
+</head>
+<body>
+    <!--les formulaires-->
+
+	<h1>Contact</h1>
+	<form action="traitement.php" method="post">
+    <div class= contact>
+		<label for="nom">Nom :</label>
+		<input type="text" id="nom" name="nom" required><br>
+
+		<label for="prenom">Prénom :</label>
+		<input type="text" id="prenom" name="prenom" required><br>
+
+		<label for="email">Email :</label>
+		<input type="email" id="email" name="email" required><br>
+
+		<label for="telephone">Téléphone :</label>
+		<input type="tel" id="telephone" name="telephone" required><br>
+
+		<label for="date">Date de récupération :</label>
+		<input type="date" id="date" name="date" required><br>
+
+		<label for="choix">Choix :</label>
+		<input type="radio" id="entreprise" name="choix" value="entreprise">
+		<label for="entreprise">Entreprise</label>
+		<input type="radio" id="particulier" name="choix" value="particulier">
+		<label for="particulier">Particulier</label><br>
+
+		<label for="message">Message :</label><br>
+		<textarea id="message" name="message" rows="5" cols="50"></textarea><br>
+
+		<input type="submit" value="Envoyer">
+	</form>
+</div>
+</body>
+</html>
+
+  
